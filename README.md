@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ✈️ Joteks Travels – Containerized Website on AWS
 
 This project showcases how I containerized a static website for Joteks Travels using Docker, Amazon ECR, ECS (Fargate), and an Application Load Balancer.
@@ -67,3 +68,7 @@ Version Control: Git & GitHub
 
 👩‍💻 Betty Musari
 Aspiring Cloud & DevOps Engineer
+=======
+# Joteks-travels
+Joteks Travels &amp; Tours – A travel booking website containerized with Docker and deployed on AWS ECS with an Application Load Balancer. Showcases DevOps workflows including containerization, cloud deployment, and load balancing as part of a portfolio project.
+>>>>>>> 2df09ded6b0c664dbbb72d1ba9b119b338753198
