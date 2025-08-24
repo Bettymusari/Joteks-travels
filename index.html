@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joteks Travels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #00aaff, #ffdd00, #ff9999, #99ff99);
+      color: #333;
+    }
+
+    header {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    header img.logo {
+      height: 80px;
+      position: absolute;
+      left: 20px;
+      top: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #ffcc00;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #004080;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #004080;
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      color: white;
+      position: relative;
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .hero p {
+      font-size: 1.5em;
+      text-shadow: 1px 1px 4px black;
+    }
+
+    .cta-button {
+      background: #ff3300;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #ff6600;
+    }
+
+    .services {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+      background: white;
+    }
+
+    .service {
+      width: 30%;
+      text-align: center;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .service img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="assets/logo.jpeg" alt="Joteks Travels Logo" class="logo">
+    <h1>Joteks Travels</h1>
+    <p>Your Gateway to Adventure</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Bookings</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Explore the World with Us!</h2>
+    <p>Affordable packages to your dream destinations</p>
+    <button class="cta-button">Book Now</button>
+  </section>
+
+  <section class="services">
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+      <h3>Tropical Beaches</h3>
+      <p>Relax on white sandy beaches with clear blue waters.</p>
+    </div>
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountains">
+      <h3>Mountain Adventures</h3>
+      <p>Experience thrilling hikes and breathtaking views.</p>
+    </div>
+    <div class="service">
+      <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1" alt="City Tours">
+      <h3>City Tours</h3>
+      <p>Discover culture, history, and nightlife in vibrant cities.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Joteks Travels | Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
+
