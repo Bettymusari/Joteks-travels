@@ -1,8 +1,13 @@
 
 # ✈️ Joteks Travels – Containerized Website on AWS
 
-This project showcases how I containerized a static website for Joteks Travels using Docker, Amazon EC2, ECS (Fargate).  
-It demonstrates skills in cloud deployment, containerization, and GitHub project documentation.
+Joteks Travels is a fully containerized static website built to showcase travel destinations and services, developed using Docker and deployed on Amazon Web Services (AWS) with EC2 and ECS (Fargate).  
+
+This project demonstrates practical skills in **containerization, cloud infrastructure deployment, and DevOps workflows**, making it a strong portfolio example for aspiring Cloud & DevOps engineers.  
+
+Visitors can explore a visually engaging travel website, while the project itself highlights modern deployment practices including **local Docker builds, version-controlled GitHub repositories, AWS EC2 hosting, container orchestration with ECS, and optional integration with an Application Load Balancer (ALB)**.  
+
+By completing this project, you’ll see a full **end-to-end workflow from local development to cloud deployment**, illustrating how to efficiently package, deploy, and manage containerized applications on AWS.
 
 
 📂 **Project Structure**
